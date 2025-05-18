@@ -1,6 +1,16 @@
-# **🧠 BACKEND**
+Django + React Projesi Başlatma Kılavuzu
+Bu doküman, Django backend ve React frontend kullanan tam yığın bir projeyi nasıl kurup çalıştıracağınızı adım adım açıklamaktadır. Backend API yapısı, frontend bileşenleri ve temel entegrasyon detayları basit bir şekilde ele alınmıştır.
 
-────────────────────────────
+---
+
+
+# **🧠 BACKEND -> DJANGO**
+
+
+<div align = center >
+  <img src = 'https://github.com/user-attachments/assets/e7bcfe47-3c30-4c6a-8852-272f48088659' width=40% >
+</div>
+
 
 # 1. Komutlar
 
@@ -408,9 +418,16 @@ Projeyi durdurmak istediğinde ise terminalde `Ctrl + C` tuşlarına basman yete
 
 ---
 
-# **🎨 FRONTEND**
+# **🎨 FRONTEND -> React + Vite**
 
-────────────────────────────
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/802b0b74-3244-4130-95d3-35e5ec30dd8c" width="30%" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/cababf97-2157-4c5c-9885-0337bc69065e" width="30%" />
+</p>
+
+
+
 
 ## 1. Komutlar
 
