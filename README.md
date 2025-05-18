@@ -418,6 +418,57 @@ Projeyi durdurmak istediğinde ise terminalde `Ctrl + C` tuşlarına basman yete
 
 ---
 
+# Backend Yapısı
+```bash
+backend:.
+│   db.sqlite3
+│   manage.py
+│   
+├───api
+│   │   admin.py
+│   │   apps.py
+│   │   models.py
+│   │   serializers.py
+│   │   tests.py
+│   │   urls.py
+│   │   views.py
+│   │   __init__.py
+│   │
+│   ├───migrations
+│   │   │   0001_initial.py
+│   │   │   __init__.py
+│   │   │
+│   │   └───__pycache__
+│   │           0001_initial.cpython-313.pyc
+│   │           0002_note_image.cpython-313.pyc
+│   │           0002_uploadedimage.cpython-313.pyc
+│   │           __init__.cpython-313.pyc
+│   │
+│   └───__pycache__
+│           admin.cpython-313.pyc
+│           apps.cpython-313.pyc
+│           models.cpython-313.pyc
+│           serializers.cpython-313.pyc
+│           urls.cpython-313.pyc
+│           views.cpython-313.pyc
+│           __init__.cpython-313.pyc
+│
+└───backend
+    │   asgi.py
+    │   settings.py
+    │   urls.py
+    │   wsgi.py
+    │   __init__.py
+    │
+    └───__pycache__
+            settings.cpython-313.pyc
+            urls.cpython-313.pyc
+            wsgi.cpython-313.pyc
+            __init__.cpython-313.pyc
+```
+
+---
+
 # **🎨 FRONTEND -> React + Vite**
 
 <p align="center">
@@ -1084,60 +1135,7 @@ Oluşturduğun kullanıcı adı ve şifreyle giriş yap, eğer `Home` sayfasın�
 
 ---
 
-
-
-# ÖZET
-
-## Backend Yapısı
-```bash
-backend:.
-│   db.sqlite3
-│   manage.py
-│   
-├───api
-│   │   admin.py
-│   │   apps.py
-│   │   models.py
-│   │   serializers.py
-│   │   tests.py
-│   │   urls.py
-│   │   views.py
-│   │   __init__.py
-│   │
-│   ├───migrations
-│   │   │   0001_initial.py
-│   │   │   __init__.py
-│   │   │
-│   │   └───__pycache__
-│   │           0001_initial.cpython-313.pyc
-│   │           0002_note_image.cpython-313.pyc
-│   │           0002_uploadedimage.cpython-313.pyc
-│   │           __init__.cpython-313.pyc
-│   │
-│   └───__pycache__
-│           admin.cpython-313.pyc
-│           apps.cpython-313.pyc
-│           models.cpython-313.pyc
-│           serializers.cpython-313.pyc
-│           urls.cpython-313.pyc
-│           views.cpython-313.pyc
-│           __init__.cpython-313.pyc
-│
-└───backend
-    │   asgi.py
-    │   settings.py
-    │   urls.py
-    │   wsgi.py
-    │   __init__.py
-    │
-    └───__pycache__
-            settings.cpython-313.pyc
-            urls.cpython-313.pyc
-            wsgi.cpython-313.pyc
-            __init__.cpython-313.pyc
-```
-
-## Frontend Yapısı
+# Frontend Yapısı
 ```bash
 frontend:.
 │   .env
@@ -1153,11 +1151,11 @@ frontend:.
 ├───node_modules
 │   │   .package-lock.json
 │   │   
-│   │───.bin
-│   │       acorn
-│   │       .
-│   │       .
-│   │       .
+│   └───.bin
+│           acorn
+│           .
+│           .
+│           .
 │                       
 ├───public
 │       vite.svg
