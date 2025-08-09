@@ -851,10 +851,6 @@ Bu temel sayfalar, projenin iskeletini oluşturacak ve ileride içeriklerini gel
 ---
 
 
-Tabii, daha doğal, insan eliyle yazılmış gibi şöyle yapabiliriz:
-
----
-
 # 3. App.jsx Dosyasını Güncelleme
 
 Bu dosya, uygulamanın sayfalar arası geçişlerini yönetiyor. Burada şöyle bir mantık kuruyoruz:
